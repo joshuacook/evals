@@ -1,0 +1,8 @@
+generate_academic_standards:
+  id: generate_academic_standards.dev.v0
+  metrics: [accuracy]
+
+generate_academic_standards.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: generate_academic_standards/samples-xaa.jsonl
